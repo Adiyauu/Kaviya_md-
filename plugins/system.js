@@ -13,15 +13,15 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let status = `
-*╭─「 ʀᴀᴠɪɴᴅᴜ-ᴍᴅ ʙᴏᴛ ɪɴꜰᴏ🔥 」─*
-*│ 📌 CREATOR : Ravindu Akash*
+*╭─「 ᴋᴀᴠɪɴᴅᴜ-ᴍᴅ ʙᴏᴛ ɪɴꜰᴏ🔥 」─*
+*│ 📌 CREATOR : ᴋᴀᴠɪɴᴅᴜ*
 *│ 📟 Version: 1.0.0*
 *│ 🧬 Uptime: ${runtime(process.uptime())}*
 *│ 📈 RAM Usage: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
 *│ 🕯️ Platform: heroku*
 *│ ⚙️ Hostname: ${os.hostname()}*
 *╰──────────────●●►*
-> © 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚢 𝚁𝙰𝚅𝙸𝙽𝙳𝚄 𝙰𝙺𝙰𝚂𝙷 🔥
+ *🚫𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝙺𝙰𝚅𝙸𝚈𝙰 〽️𝙳*
 `
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:`${status}`},{quoted:mek})
 
