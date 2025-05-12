@@ -21,23 +21,23 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• *🧬 Version*: *1.0.0*
 ┃◈└───────────┈⊷-
 ╰──────────────┈⊷
-*RAVINDU-MD Whatsapp bot*
- *created by Ravindu akash🔥*
+*KABIYA-MD Whatsapp bot*
+ *created by kavindu🔥*
 
- Repo: github.com/mrravindu/V1.com
+ Repo: github.com/mrkavindu/V1.com
  
-> © 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚢 𝚁𝙰𝚅𝙸𝙽𝙳𝚄 𝙰𝙺𝙰𝚂𝙷 🔥`;
+ *🚫𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝙺𝙰𝚅𝙸𝚈𝙰 〽️𝙳*`;
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/kV09yDBR/5813.jpg` },  // Image URL
+            image: { url: `https://files.catbox.moe/3js349.jpg` },  // Image URL
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363400917991342@newsletter',
+                    newsletterJid: '',
                     newsletterName: 'RAVINDU_MD',
                     serverMessageId: 143
                 }
