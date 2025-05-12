@@ -21,7 +21,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• *🧬 Version*: *1.0.0*
 ┃◈└───────────┈⊷-
 ╰──────────────┈⊷
-*KABIYA-MD Whatsapp bot*
+*ᴋᴀᴠɪʏᴀ ᴍᴅ Whatsapp bot*
  *created by kavindu🔥*
 
  Repo: github.com/mrkavindu/V1.com
